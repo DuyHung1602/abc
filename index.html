@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quảng Cáo Sản Phẩm</title>
+    <style>
+        /* Reset CSS */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Body */
+        body {
+            font-family: 'Helvetica Neue', sans-serif;
+            background-color: #f5f7fa;
+            color: #333;
+            line-height: 1.6;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        /* Header */
+        header {
+            background: #1e3a8a;
+            color: #fff;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2em;
+            opacity: 0.85;
+        }
+
+        /* Giới thiệu sản phẩm */
+        section.intro {
+            flex: 1;
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .intro h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+            color: #1e3a8a;
+        }
+
+        .intro p {
+            font-size: 1.1em;
+            margin-bottom: 30px;
+            color: #555;
+        }
+
+        .intro .product-image {
+            width: 100%;
+            max-width: 600px;
+            margin: 20px auto;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+
+        .intro .product-image:hover {
+            transform: scale(1.05);
+        }
+
+        /* Thông tin liên hệ */
+        section.contact {
+            text-align: center;
+            margin: 30px 0;
+        }
+
+        .contact h3 {
+            font-size: 1.5em;
+            margin-bottom: 15px;
+            color: #1e3a8a;
+        }
+
+        .contact p {
+            margin: 10px 0;
+            font-size: 1.1em;
+        }
+
+        .contact a {
+            color: #1e3a8a;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .contact a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #1e3a8a;
+            color: #fff;
+            margin-top: auto;
+        }
+
+        footer p {
+            font-size: 0.9em;
+        }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2em;
+            }
+
+            .intro h2 {
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Quảng Cáo Sản Phẩm</h1>
+        <p>Giải pháp tối giản cho mọi nhu cầu</p>
+    </header>
+
+    <!-- Giới thiệu sản phẩm -->
+    <section class="intro">
+        <h2>Sản Phẩm Nổi Bật Của Chúng Tôi</h2>
+        <p>
+            Chúng tôi cung cấp những sản phẩm chất lượng cao với thiết kế hiện đại, tối giản, phù hợp cho mọi không gian sống và làm việc.
+            Tính năng nổi bật: bền bỉ, tinh tế, dễ sử dụng, đáp ứng tối đa nhu cầu của khách hàng.
+        </p>
+        <!-- Hình ảnh minh họa sản phẩm -->
+        <img src="https://via.placeholder.com/600x400?text=Sản+Phẩm+Của+Chúng+Tôi" alt="Hình ảnh sản phẩm" class="product-image">
+    </section>
+
+    <!-- Thông tin liên hệ -->
+    <section class="contact">
+        <h3>Liên Hệ Với Chúng Tôi</h3>
+        <p>Email: <a href="mailto:hungden1603@gmail.com">hungden1603@gmail.com</a></p>
+        <p>Điện thoại: <a href="tel:0342026886">034 202 6886</a></p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024. Thiết kế bởi hungden1603. Mọi quyền được bảo lưu.</p>
+    </footer>
+</body>
+</html>
